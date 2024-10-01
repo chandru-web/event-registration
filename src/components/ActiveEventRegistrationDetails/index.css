@@ -1,0 +1,49 @@
+.yet-to-register-img,
+.registration-closed-img,
+.registered-img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.yet-to-register-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.yet-to-register-button:hover {
+  background-color: #45a049;
+}
+
+.registration-closed-heading,
+.registered-heading,
+.event-status-heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.registration-closed-description,
+.yet-to-register-description .event-status-heading {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 15px;
+}

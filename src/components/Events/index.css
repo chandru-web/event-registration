@@ -1,0 +1,52 @@
+Write your CSS here .app-container {
+  background-color: #fff;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  overflow: hidden;
+}
+.events-container {
+  width: 60vw;
+  padding: 10px;
+  overflow: auto;
+  background-color: #64748b;
+}
+.event-heading {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.events-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.event-status-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.event-status-heading {
+  color: #0967d2;
+}
+
+.app-container {
+  background-color: #fff;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  overflow: hidden;
+}
+
+.events-container {
+  width: 60vw;
+  padding: 10px;
+  overflow: auto;
+  background-color: #64748b;
+  border-radius: 10px;
+}
