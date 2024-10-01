@@ -26,7 +26,7 @@ Write your CSS here .app-container {
 }
 .event-status-container {
   padding: 30px;
-  max-width:40vh;
+  max-width:40vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
